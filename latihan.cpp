@@ -16,5 +16,9 @@ class Barang {
             this->namaBarang = nama;
             this->kodeBarang = kode;
         }
-};
 
+                void output() {
+            cout << "Nama Barang : " << this->namaBarang << endl;
+            cout << "Kode Barang : " << this->kodeBarang << endl;
+        }
+};
